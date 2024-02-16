@@ -1,4 +1,4 @@
-def running_miles(t, tests):
+def running_miles(tests):
     for b in tests:
         n = len(b)
         max_sum = float('-inf')
@@ -16,4 +16,4 @@ for _ in range(t):
     b = list(map(int, input().split()))
     tests.append(b)
 
-running_miles(t, tests)
+running_miles(tests)
